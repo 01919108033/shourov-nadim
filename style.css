@@ -1,0 +1,55 @@
+*, p{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  
+}
+
+
+.header{
+    background-color: #683091;
+    color: white;
+    font-size: 10px;
+}
+.dropdown a {
+    font-size: 1rem; 
+}
+.dropdown .btn{
+    font-size: 10px;  
+}
+.button-group{
+    font-size: 10px;  
+}
+.section1{
+    background-image: url(https://www.banglanews24.com/public/uploads/2022/06/25/1656172359.PID%20pm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+ul li:nth-child(2):hover{
+background-color: #e47b4a;
+border-bottom: 5px solid red;
+
+}
+.dropdown-width{
+    width: 100%;
+    background-color: #683091;
+    text-align: center;
+}
+
+/* .............................sec-3...................................... */
+.section3{
+    width: 30%;
+}
+  @media only screen and (max-width: 992px) {
+    .section3{
+        width: 50%;
+        
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .section3{
+        width: 100%;
+    }
+  }
